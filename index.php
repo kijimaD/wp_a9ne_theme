@@ -17,7 +17,7 @@
   <title>
     X COFFEE
   </title>
-
+  <?php wp_head();?>
 </head>
 
 <body>
@@ -152,7 +152,6 @@
 
       </div>
     </div>
-  </body>
 
   <footer class="py-4">
     <div class="container text-center">
@@ -161,5 +160,8 @@
           2019 X COFFEE, All Rights Reserved.</small></p>
     </div>
   </footer>
+
+<?php wp_footer();?>
+  </body>
 
 </html>
