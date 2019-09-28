@@ -91,7 +91,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form class="form-inline" action="http://localhost/wordpress_bs_test/" method="get">
+          <form class="form-inline" action="http://localhost/wp/" method="get">
             <input class="form-control" type="text" placeholder="検索" aria-label="Search" name="s">
             <button class="btn btn-outline-success" type=submit>
               <i class="fas fa-search"></i>
