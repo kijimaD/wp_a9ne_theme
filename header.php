@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link href="http://localhost/wordpress_bs_test/wp-content/themes/newa9ne_blog_theme/style.css" rel="stylesheet" />
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" />
 
   <!-- 追加CSS -->
-  <link href="http://localhost/wordpress_bs_test/wp-content/themes/newa9ne_blog_theme/css/custom.css" type="text/css" rel="stylesheet" />
+  <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" type="text/css" rel="stylesheet" />
 
   <!-- fontawesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
