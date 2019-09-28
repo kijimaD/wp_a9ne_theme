@@ -30,7 +30,7 @@
       <!-- サブコンポーネント -->
       <div class="container">
         <!-- ブランド -->
-        <a class="navbar-brand" href="http://localhost/wordpress_bs_test/" style="font-weight:900;">
+        <a class="navbar-brand" href="<?php echo home_url('/'); ?>" style="font-weight:900;">
           <?php bloginfo('name'); ?></a>
         <!-- 切り替えボタン -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,10 +48,10 @@
           <!-- 右側メニュー: Contactページへのリンク -->
           <ul class="navbar-nav py-3">
             <li class="nav-item mx-2">
-              <a class="nav-link" href="http://localhost/wordpress_bs_test//web/">WEB制作</a>
+              <a class="nav-link" href="<?php echo home_url('/'); ?>">WEB制作</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="http://localhost/wordpress_bs_test//question/">お問い合わせ</a>
+              <a class="nav-link" href="<?php echo home_url('/'); ?>">お問い合わせ</a>
             </li>
             <!-- ドロップダウン -->
             <li class="nav-item dropdown mx-2">
@@ -59,8 +59,8 @@
                 店舗情報
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="http://localhost/wordpress_bs_test/#shop">情報</a>
-                <a class="dropdown-item" href="http://localhost/wordpress_bs_test/#access">アクセス</a>
+                <a class="dropdown-item" href="<?php echo home_url('/'); ?>">情報</a>
+                <a class="dropdown-item" href="<?php echo home_url('/'); ?>">アクセス</a>
               </div>
             </li>
             <!-- 検索バー -->
