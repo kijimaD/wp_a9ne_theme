@@ -105,3 +105,7 @@
     </div>
   </div>
   <!-- 検索モーダル内 -->
+
+  <body>
+    <div class="container my-5">
+      <div class="row">
