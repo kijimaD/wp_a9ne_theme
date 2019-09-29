@@ -4,9 +4,12 @@
 <?php
     $cats = get_the_category();
     foreach ($cats as $cat) {
-        ?>
+        $catid = $cat->cat_ID;
+        $link = get_category_link($catid); ?>
 <small class="card-text btn btn-light btn-sm">
+  <a href="<?php echo $link; ?>" class="text-secondary">
   <?php echo $cat->cat_name; ?>
+</a>
 </small>
 <?php
     }?>
