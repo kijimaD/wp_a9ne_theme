@@ -33,3 +33,20 @@ function add_page_navi_class($output)
       return str_replace('<a href=', '<a class="page-link border-0 text-dark" href=', $output);
     endif;
 }
+
+// 抜粋文が自動的に生成される場合に最後に付与される文字列を変更します。
+function cms_excerpt_more()
+{
+    return '...';
+}
+add_filter('excerpt_more', 'cms_excerpt_more');
+
+// 抜粋文が自動的に生成される場合にデフォルトの文字数を変更します。
+function cms_excerpt_length()
+{
+    return 120;
+}
+add_filter('excerpt_mblength', 'cms_excerpt_length');
+
+// 固定ページで抜粋文を入力できるようにする。
+add_post_type_support('page', 'excerpt');
