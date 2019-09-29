@@ -30,3 +30,22 @@
 endif;
 ?>
 </p>
+
+  <!-- ページ間ナビゲーション -->
+  <?php
+if (is_single()) :
+?>
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-md-6 text-left">
+        <?php next_post_link('%link', '%title<i class="fas fa-chevron-left fa-2x float-left text-secondary"></i>', true); ?>
+      </div>
+      <div class="col-md-6 text-right">
+        <?php previous_post_link('%link', '%title<i class="fas fa-chevron-right fa-2x float-right text-secondary"></i>', true); ?>
+      </div>
+    </div>
+  </div>
+  <?php
+endif;
+?>
+  <!-- ページ間ナビゲーション -->
