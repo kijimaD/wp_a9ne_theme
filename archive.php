@@ -17,8 +17,8 @@
      single_cat_title();
    endif;
      ?>
-   </h5>
-         <hr>
+    </h5>
+    <hr>
 
     <?php
 if (have_posts()) :

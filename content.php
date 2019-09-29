@@ -1,6 +1,6 @@
-<h2 class="">
+<!-- <h2 class="display-4" style="font-weight:900;">
   <?php the_title(); ?>
-</h2>
+</h2> -->
 <small class="card-text btn btn-light btn-sm">タグ1</small>
 <small class="card-text btn btn-light btn-sm">タグ2</small>
 <small class="card-text"><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
