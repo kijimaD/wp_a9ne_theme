@@ -91,11 +91,13 @@
           </button>
         </div>
         <div class="modal-body">
-          <form class="form-inline" action="http://localhost/wp/" method="get">
+          <form class="form-inline input-group" action="<?php echo home_url('/'); ?>" method="get">
             <input class="form-control" type="text" placeholder="検索" aria-label="Search" name="s">
-            <button class="btn btn-outline-success" type=submit>
-              <i class="fas fa-search"></i>
-            </button>
+            <div class="input-group-btn">
+              <button class="btn btn-outline-success" type=submit>
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
           </form>
         </div>
         <div class="modal-footer">
