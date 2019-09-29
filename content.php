@@ -6,6 +6,16 @@
 <small class="card-text"><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
     <?php the_time(get_option('date_format')); ?></time>
 </small>
+      <a href="<?php the_permalink(); ?>" class="post-link">
+        <?php the_post_thumbnail(
+    'medium',
+    array(
+'alt' => the_title_attribute('echo=0'),
+'title' => the_title_attribute('echo=0'),
+'class' => 'card-img',
+)
+); ?>
+      </a>
 <p>
   <?php the_content();?>
   <?php
