@@ -51,7 +51,7 @@
               <a class="nav-link" href="<?php echo home_url('/'); ?>">WEB制作</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="<?php echo home_url('/'); ?>">お問い合わせ</a>
+              <a class="nav-link" href="<?php echo home_url('/'); ?>/question">お問い合わせ</a>
             </li>
             <!-- ドロップダウン -->
             <li class="nav-item dropdown mx-2">

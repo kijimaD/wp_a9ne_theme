@@ -8,21 +8,28 @@
 <!-- 本文 -->
 
 <div class="col-lg-7">
-<h2><?php single_cat_title(); ?></h2>
-  <?php
+  <div class="contents">
+    <h5 class="">
+      <?php
+    if (is_author()) :
+      echo esc_html(get_the_author_meta('display_name', get_query_var('author')));
+    else:
+     single_cat_title();
+   endif;
+     ?>
+   </h5>
+         <hr>
+
+    <?php
 if (have_posts()) :
   while (have_posts()):
     the_post();
     get_template_part('content-archive');
   endwhile;
+  get_template_part('pagination');
   endif;
   ?>
-
-  <!-- ペジネーション -->
-  <nav class="mx-auto">
-  </nav>
-  <!-- /ペジネーション -->
-
+  </div>
 </div>
 
 <!-- /本文 -->
