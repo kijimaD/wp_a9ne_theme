@@ -19,9 +19,9 @@ wp_reset_postdata();
 ?>
   <!-- ペジネーション -->
   <nav class="mx-auto">
+  <?php get_template_part('pagenation');?>
   </nav>
   <!-- /ペジネーション -->
-
 </div>
 <!-- /本文 -->
 

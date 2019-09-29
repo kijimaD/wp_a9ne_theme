@@ -5,8 +5,10 @@
     </a>
   </h2>
   <div class="card-body pt-0">
-    <small class="card-text btn btn-light btn-sm">タグ1</small>
-    <small class="card-text btn btn-light btn-sm">タグ2</small>
+    <?php
+    $category = get_the_category();
+    ?>
+    <small class="card-text btn btn-light btn-sm"><?php echo $category[0]->cat_name; ?></small>
     <small class="card-text"><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
         <?php the_time(get_option('date_format')); ?></time>
     </small>
