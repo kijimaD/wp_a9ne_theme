@@ -12,6 +12,9 @@ function add_js()
 }
 add_action('wp_enqueue_scripts', 'add_js');
 
+// アイキャッチ画像を利用できるようにする
+add_theme_support('post-thumbnails');
+
 // ページ間ナビゲーションにボタンクラスを追加
 
 add_filter('previous_post_link', 'add_prev_post_link_class');
