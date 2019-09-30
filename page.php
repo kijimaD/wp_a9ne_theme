@@ -1,11 +1,6 @@
 <?php get_header(); ?>
 
 <!-- 未定・左 -->
-<div class="col-12">
-  <h2 class="display-4 text-center" style="font-weight:900;">
-    <?php the_title(); ?>
-  </h2>
-</div>
 <div class="col-lg-2">
 </div>
 <!-- /未定・左 -->

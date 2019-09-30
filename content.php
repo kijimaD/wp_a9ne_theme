@@ -1,6 +1,6 @@
-<!-- <h2 class="display-4" style="font-weight:900;">
+<h2 class="display-4" style="font-weight:900;">
   <?php the_title(); ?>
-</h2> -->
+</h2>
     <?php
         $cats = get_the_category();
         foreach ($cats as $cat) {

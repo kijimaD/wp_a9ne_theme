@@ -1,5 +1,5 @@
 <div class="card border-0">
-  <h2 class="card-title" style="font-weight:900">
+  <h2 class="card-title mb-0" style="font-weight:900">
     <a href="<?php the_permalink();?>" class="card-title text-dark">
       <?php the_title(); ?>
     </a>
