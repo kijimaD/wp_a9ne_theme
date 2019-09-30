@@ -15,3 +15,23 @@ margin-left: 1em;
 padding: 0.1em 0 0.1em .75em;
 border-left:5px double #6C757D;
 }
+
+html {
+    /* ルートのフォントサイズを10pxに設定しておく */
+	font-size: 62.5%;
+}
+
+body {
+	/* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
+	font-size: 1.6em;
+}
+
+div h2{
+	/* 68px */
+	font-size: 6.8rem;
+}
+div a{
+	/* 38px */
+	font-size: 3.8rem;
+
+}
