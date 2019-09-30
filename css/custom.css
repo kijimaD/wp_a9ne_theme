@@ -16,6 +16,7 @@ padding: 0.1em 0 0.1em .75em;
 border-left:5px double #6C757D;
 }
 
+/* レスポンシブなフォントサイズ変更。正しい方法かわからない */
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
