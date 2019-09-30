@@ -1,17 +1,17 @@
 <h2 class="display-4" style="font-weight:900;">
   <?php the_title(); ?>
 </h2>
-    <?php
+<?php
         $cats = get_the_category();
         foreach ($cats as $cat) {
             $catid = $cat->cat_ID;
             $link = get_category_link($catid); ?>
-    <a href="<?php echo $link; ?>" class="text-secondary  btn btn-light btn-sm">
-      <small class="card-text">
-        <?php echo $cat->cat_name; ?>
-      </small>
-    </a>
-    <?php
+<a href="<?php echo $link; ?>" class="text-secondary  btn btn-light btn-sm">
+  <small class="card-text">
+    <?php echo $cat->cat_name; ?>
+  </small>
+</a>
+<?php
         }?>
 <small class="card-text"><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
     <?php the_time(get_option('date_format')); ?></time>
@@ -58,11 +58,15 @@ if (is_single()) :
 ?>
 <div class="container mb-5">
   <div class="row">
-    <div class="col-md-6 text-left">
-      <?php next_post_link('%link', '%title<i class="fas fa-chevron-left fa-2x float-left text-secondary"></i>', true); ?>
+    <div class="col-md-6 text-left mx-0 pr-1">
+      <i class="fas fa-chevron-left fa-2x float-left text-secondary"></i>
+      <small>次の記事</small>
+      <?php next_post_link('%link', '%title', true); ?>
     </div>
-    <div class="col-md-6 text-right">
-      <?php previous_post_link('%link', '%title<i class="fas fa-chevron-right fa-2x float-right text-secondary"></i>', true); ?>
+    <div class="col-md-6 text-right mx-0 pl-1">
+      <i class="fas fa-chevron-right fa-2x float-right text-secondary"></i>
+      <small>前の記事</small>
+      <?php previous_post_link('%link', '%title', true); ?>
     </div>
   </div>
 </div>

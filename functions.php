@@ -20,12 +20,12 @@ add_theme_support('post-thumbnails');
 add_filter('previous_post_link', 'add_prev_post_link_class');
 function add_prev_post_link_class($output)
 {
-    return str_replace('<a href=', '<small>前の記事</small><a class="btn btn-light btn-block text-left py-4" href=', $output);
+    return str_replace('<a href=', '<a class="btn btn-light btn-block text-center py-4" href=', $output);
 }
 add_filter('next_post_link', 'add_next_post_link_class');
 function add_next_post_link_class($output)
 {
-    return str_replace('<a href=', '<small>次の記事</small><a class="btn btn-light btn-block text-right py-4" href=', $output);
+    return str_replace('<a href=', '<a class="btn btn-light btn-block text-center py-4" href=', $output);
 }
 
 // ペジネーションにクラスを追加
