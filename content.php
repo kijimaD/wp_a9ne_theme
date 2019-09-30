@@ -59,13 +59,11 @@ if (is_single()) :
 <div class="container mb-5">
   <div class="row">
     <div class="col-md-6 text-left mx-0 pr-1">
-      <i class="fas fa-chevron-left fa-2x float-left text-secondary"></i>
-      <small>次の記事</small>
+      <small>＜ 次の記事</small>
       <?php next_post_link('%link', '%title', true); ?>
     </div>
     <div class="col-md-6 text-right mx-0 pl-1">
-      <i class="fas fa-chevron-right fa-2x float-right text-secondary"></i>
-      <small>前の記事</small>
+      <small>前の記事 ＞</small>
       <?php previous_post_link('%link', '%title', true); ?>
     </div>
   </div>
