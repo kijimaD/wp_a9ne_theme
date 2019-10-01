@@ -19,11 +19,11 @@
 
 <a href="<?php the_permalink(); ?>" class="post-link">
   <?php the_post_thumbnail(
-                'medium',
+                'header_image',
                 array(
 'alt' => the_title_attribute('echo=0'),
 'title' => the_title_attribute('echo=0'),
-'class' => 'card-img',
+'class' => 'card-img img-thumbnail',
 )
 ); ?>
 </a>

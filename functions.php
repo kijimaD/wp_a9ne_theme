@@ -15,6 +15,9 @@ add_action('wp_enqueue_scripts', 'add_js');
 // アイキャッチ画像を利用できるようにする
 add_theme_support('post-thumbnails');
 
+// ヘッダーサムネイル用画像サイズ設定
+add_image_size('header_image', 600, 200, true);
+
 // ページ間ナビゲーションにボタンクラスを追加
 
 add_filter('previous_post_link', 'add_prev_post_link_class');
