@@ -47,9 +47,9 @@
 
           <!-- 右側メニュー: Contactページへのリンク -->
           <ul class="navbar-nav py-3">
-            <!-- <li class="nav-item mx-2">
-              <a class="nav-link" href="<?php echo home_url('/'); ?>">WEB制作</a>
-            </li> -->
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="<?php echo home_url('/'); ?>/works">WEB制作</a>
+            </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="https://new.a9ne.com">雑記ブログ</a>
             </li>
