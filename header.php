@@ -51,7 +51,7 @@
               <a class="nav-link" href="<?php echo home_url('/'); ?>">WEB制作</a>
             </li> -->
             <li class="nav-item mx-2">
-              <a class="nav-link" href="new.a9ne.com">雑記ブログ</a>
+              <a class="nav-link" href="https://new.a9ne.com">雑記ブログ</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="<?php echo home_url('/'); ?>/contact">お問い合わせ</a>
