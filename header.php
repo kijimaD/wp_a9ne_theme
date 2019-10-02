@@ -47,21 +47,24 @@
 
           <!-- 右側メニュー: Contactページへのリンク -->
           <ul class="navbar-nav py-3">
-            <li class="nav-item mx-2">
+            <!-- <li class="nav-item mx-2">
               <a class="nav-link" href="<?php echo home_url('/'); ?>">WEB制作</a>
+            </li> -->
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="<?php echo home_url('/'); ?>/question">ブログ</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="<?php echo home_url('/'); ?>/question">お問い合わせ</a>
             </li>
             <!-- ドロップダウン -->
-            <li class="nav-item dropdown mx-2">
+            <!-- <li class="nav-item dropdown mx-2">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 店舗情報
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="<?php echo home_url('/'); ?>">情報</a>
                 <a class="dropdown-item" href="<?php echo home_url('/'); ?>">アクセス</a>
-              </div>
+              </div> -->
             </li>
             <!-- 検索バー -->
             <li class="nav-item">
