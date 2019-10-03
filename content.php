@@ -27,7 +27,7 @@
 )
 ); ?>
 </a>
-<p id="content">
+<div id="content">
   <?php the_content();?>
   <?php
   if (is_single()) :
@@ -50,7 +50,7 @@
   <?php
 endif;
 ?>
-</p>
+</div>
 
 <!-- ページ間ナビゲーション -->
 <?php
