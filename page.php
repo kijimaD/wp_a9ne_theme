@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- 左サイドバー -->
-<div class="col-lg-2">
+<div class="col-lg-2  d-none d-lg-block">
 <?php get_template_part('left-sidebar'); ?>
 </div>
 <!-- /左サイドバー -->
