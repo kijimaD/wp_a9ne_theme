@@ -27,7 +27,7 @@
 )
 ); ?>
 </a>
-<p>
+<p class="content">
   <?php the_content();?>
   <?php
   if (is_single()) :
