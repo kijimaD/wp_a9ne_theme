@@ -60,11 +60,11 @@ if (is_single()) :
   <div class="row">
     <div class="col-md-6 text-left mx-0 pr-1">
       <small>＜ 次の記事</small>
-      <?php next_post_link('%link', '%title', true); ?>
+      <?php next_post_link('%link', '%title', false); ?>
     </div>
     <div class="col-md-6 text-right mx-0 pl-1">
       <small>前の記事 ＞</small>
-      <?php previous_post_link('%link', '%title', true); ?>
+      <?php previous_post_link('%link', '%title', false); ?>
     </div>
   </div>
 </div>
