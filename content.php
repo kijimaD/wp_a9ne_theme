@@ -23,7 +23,7 @@
                 array(
 'alt' => the_title_attribute('echo=0'),
 'title' => the_title_attribute('echo=0'),
-'class' => 'card-img img-thumbnail mb-2',
+'class' => 'card-img img-thumbnail mb-3',
 )
 ); ?>
 </a>
