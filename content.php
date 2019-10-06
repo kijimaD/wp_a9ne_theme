@@ -72,3 +72,11 @@ if (is_single()) :
 endif;
 ?>
 <!-- ページ間ナビゲーション -->
+
+<!-- スマホ時の自己紹介 -->
+
+    <?php
+get_template_part('left-sidebar');
+?>
+
+<!-- /スマホ時の自己紹介 -->
