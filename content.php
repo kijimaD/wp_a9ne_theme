@@ -1,6 +1,8 @@
+<!-- 見出し -->
 <h2 class="display-4" style="font-weight:900;">
   <?php the_title(); ?>
 </h2>
+<!-- /見出し -->
 <?php
         $cats = get_the_category();
         foreach ($cats as $cat) {
@@ -17,6 +19,19 @@
     <?php the_time(get_option('date_format')); ?></time>
 </small>
 
+<div class="card-text">
+  <a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>" rel="nofollow" target="_blank" class="btn btn-sm">
+    <i class="fab fa-facebook-square fa-2x"></i>
+  </a>
+  <a href="https://twitter.com/share?url=<?php echo get_the_permalink(); ?>" class="btn btn-sm">
+    <i class="fab fa-twitter-square fa-2x"></i>
+  </a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo get_the_permalink(); ?>&title=<?php echo get_the_title(); ?>" target="_blank" rel="nofollow" class="btn btn-sm">
+    <i class="fa fa-hatena fa-2x"></i>
+  </a>
+
+</div>
+
 <a href="<?php the_permalink(); ?>" class="post-link">
   <?php the_post_thumbnail(
                 'header_image',
@@ -27,6 +42,7 @@
 )
 ); ?>
 </a>
+
 <div id="content">
   <?php the_content();?>
   <?php
@@ -74,9 +90,10 @@ endif;
 <!-- ページ間ナビゲーション -->
 
 <!-- スマホ時の自己紹介 -->
-
-    <?php
+<!-- <div class="d-block d-lg-none">
+  <?php
 get_template_part('left-sidebar');
 ?>
+</div> -->
 
 <!-- /スマホ時の自己紹介 -->

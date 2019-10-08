@@ -7,8 +7,8 @@ font-weight: 700;
 font-size: 1.5rem;
 }
 #content > h3::before{
-  content: "▲";
-  color:gray;
+content: "▲";
+color:gray;
 }
 
 /* レスポンシブなフォントサイズ変更。正しい方法かわからない */
@@ -47,4 +47,21 @@ font-size: calc(1.475rem + 2.7vw);
 .close {
 font-size: calc(1.275rem + 0.3vw);
 }
+}
+
+/* Font Awesome hatena bookmark */
+
+.fa-hatena:before {
+content: "B!";
+color:#01A4DE;
+font-family: Verdana;
+font-weight: bold
+}
+
+.fa-facebook-square{
+color:#3B5998;
+}
+
+.fa-twitter-square{
+color:#1DA1F2;
 }
