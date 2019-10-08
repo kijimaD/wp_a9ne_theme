@@ -8,18 +8,18 @@
         foreach ($cats as $cat) {
             $catid = $cat->cat_ID;
             $link = get_category_link($catid); ?>
-<a href="<?php echo $link; ?>" class="text-secondary  btn btn-light btn-sm">
-  <small class="card-text">
-    <?php echo $cat->cat_name; ?>
-  </small>
-</a>
-<?php
+<div class="d-inline">
+  <a href="<?php echo $link; ?>" class="text-secondary  btn btn-light btn-sm">
+    <small class="">
+      <?php echo $cat->cat_name; ?>
+    </small>
+  </a>
+  <?php
         }?>
-<small class="card-text"><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
-    <?php the_time(get_option('date_format')); ?></time>
-</small>
+  <small class=""><time pubdate="pubdate" datetime="<?php the_time('Y-m-d'); ?>" class="entry-date">
+      <?php the_time(get_option('date_format')); ?></time>
+  </small>
 
-<div class="card-text">
   <a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>" rel="nofollow" target="_blank" class="btn btn-sm">
     <i class="fab fa-facebook-square fa-2x"></i>
   </a>
@@ -29,7 +29,6 @@
   <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo get_the_permalink(); ?>&title=<?php echo get_the_title(); ?>" target="_blank" rel="nofollow" class="btn btn-sm">
     <i class="fa fa-hatena fa-2x"></i>
   </a>
-
 </div>
 
 <a href="<?php the_permalink(); ?>" class="post-link">
