@@ -2,7 +2,7 @@
 
 <!-- 左サイドバー -->
 <div class="col-lg-2 d-none d-lg-block">
-<?php get_template_part('left-sidebar'); ?>
+  <?php get_template_part('left-sidebar'); ?>
 </div>
 <!-- /左サイドバー -->
 
@@ -28,7 +28,6 @@ if (have_posts()) :
   <!-- /ペジネーション -->
 
 </div>
-
 <!-- /本文 -->
 
 <!-- 未定・右 -->
