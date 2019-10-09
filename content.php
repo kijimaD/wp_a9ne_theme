@@ -93,12 +93,3 @@ if (is_single()) :
 endif;
 ?>
 <!-- ページ間ナビゲーション -->
-
-<!-- スマホ時の自己紹介 -->
-<!-- <div class="d-block d-lg-none">
-  <?php
-get_template_part('left-sidebar');
-?>
-</div> -->
-
-<!-- /スマホ時の自己紹介 -->

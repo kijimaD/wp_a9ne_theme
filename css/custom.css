@@ -58,6 +58,13 @@ font-family: Verdana;
 font-weight: bold
 }
 
+.fa-hatena-dark:before {
+content: "B!";
+color:#343A40;
+font-family: Verdana;
+font-weight: bold
+}
+
 .fa-facebook-square{
 color:#3B5998;
 }

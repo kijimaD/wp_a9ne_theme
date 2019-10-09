@@ -1,5 +1,5 @@
     <footer class="py-4">
-      <div class="container text-center">
+      <div class="container text-right">
         <hr>
         <p><small>Copyright &copy;
             2019
