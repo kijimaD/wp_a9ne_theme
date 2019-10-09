@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-6 col-lg-12">
-      <div class="card sticky-top mt-2 border-0 float-left float-sm-right">
+      <div class="card sticky-top mt-2 border-0 float-lg-left float-right">
         <img src="<?php bloginfo('template_url'); ?>/images/face.jpg" class="img-thumbnail rounded-circle border-white bg-light ml-3" alt="" style="width: 5rem;">
         <div class="card-body py-0">
           <p class="mb-4">
