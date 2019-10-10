@@ -77,14 +77,14 @@ endif;
 <?php
 if (is_single()) :
 ?>
-<div class="container mb-5">
+<div class="container mb-2">
   <div class="row">
     <div class="col-md-6 text-left mx-0 pr-1">
-      <small>＜ 次の記事</small>
+      <small><i class="fas fa-long-arrow-alt-left"></i> 次の記事</small>
       <?php next_post_link('%link', '%title', false); ?>
     </div>
     <div class="col-md-6 text-right mx-0 pl-1">
-      <small>前の記事 ＞</small>
+      <small>前の記事 <i class="fas fa-long-arrow-alt-right"></i></small>
       <?php previous_post_link('%link', '%title', false); ?>
     </div>
   </div>
