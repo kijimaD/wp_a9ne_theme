@@ -15,7 +15,17 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
   <title>
+    <?php if (is_home()): ?>
     <?php bloginfo('name'); ?>
+    <?php elseif (is_page()): ?>
+    <?php wp_title(''); ?> |
+    <?php bloginfo('name'); ?>
+    <?php elseif (is_single()): ?>
+    <?php wp_title(''); ?> |
+    <?php bloginfo('name'); ?>
+    <?php else: ?>
+    <?php bloginfo('name'); ?>
+    <?php endif; ?>
   </title>
   <?php wp_head();?>
 </head>
