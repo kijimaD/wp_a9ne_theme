@@ -112,5 +112,5 @@
   <!-- 検索モーダル内 -->
 
   <body>
-    <div class="container my-5">
+    <div class="container mt-5">
       <div class="row">
