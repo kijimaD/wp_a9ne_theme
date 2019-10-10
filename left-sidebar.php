@@ -1,7 +1,7 @@
-<div class="d-lg-none d-xl-none">
-  <hr>
-</div>
 <div class="container">
+  <div class="d-lg-none d-xl-none">
+    <hr>
+  </div>
   <div class="row">
     <div class="col-6 col-lg-12 px-0">
       <div class="card sticky-top mt-2 border-0 float-lg-left float-right">
@@ -20,7 +20,7 @@
         <a href="https://github.com/kijimaD" class="text-dark"><i class="fab fa-github fa-fw"></i> Github</a><br>
         <a href="https://www.linkedin.com/in/大悟-貴島-184992192/" class="text-dark"><i class="fab fa-linkedin-in fa-fw"></i> LinkedIn</a><br>
         <a href="https://twitter.com/Kijima_0" class="text-dark"><i class="fab fa-twitter fa-fw"></i> Twitter<br></a>
-        <a href="" class="text-dark"><i class="fa fa-hatena-dark fa-fw"></i> Hatena</a>
+        <a href="https://b.hatena.ne.jp/norimaking777/bookmark" class="text-dark"><i class="fa fa-hatena-dark fa-fw"></i> Hatena</a>
       </p>
     </div>
   </div>
