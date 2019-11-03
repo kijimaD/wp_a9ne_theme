@@ -40,6 +40,15 @@ function add_page_navi_class($output)
     endif;
 }
 
+// 脚注タイトルをh2にする
+add_filter('efn_footnote_label', 'efn_change_label_markup', 10, 2);
+function efn_change_label_markup($output, $label)
+{
+    // if (function_exists('efn_footnote_label')):
+    return '<h2>' . $label . '</h2>';
+    // endif;
+}
+
 // 抜粋文が自動的に生成される場合に最後に付与される文字列を変更します。
 function cms_excerpt_more()
 {
